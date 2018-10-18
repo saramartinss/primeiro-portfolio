@@ -4,11 +4,10 @@ body {
 
 /* BANNER */ 
 .banner {
+  @include flex(flex, column, center);
+  justify-content: center;
   .text {
     @include flex(flex, column, center);
-    position: absolute;
-    left: 23%;
-    top: 35%;
     p {
       color: white;
       font-size: 2.7rem;
