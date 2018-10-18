@@ -1,3 +1,6 @@
+body {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif; }
+
 .banner .text {
   display: flex;
   flex-direction: column;
@@ -6,7 +9,6 @@
   left: 27%;
   top: 35%; }
   .banner .text p {
-    font-family: 'Raleway';
     color: white;
     font-size: 2.7rem;
     margin: 0;
@@ -18,7 +20,6 @@
     width: 200px;
     background-color: transparent;
     color: white;
-    font-family: 'Raleway';
     font-size: 1.3rem;
     border-radius: 0px;
     border: 2px solid; }
@@ -26,5 +27,15 @@
   height: 100vh;
   width: 100%;
   max-width: 100%; }
+
+.mynavbar {
+  text-transform: uppercase;
+  border-bottom: 3px solid #04C2C9; }
+  .mynavbar .navbar-nav {
+    margin-left: 50px; }
+  .mynavbar a {
+    margin: 0 10px; }
+    .mynavbar a span {
+      color: #E31B6D; }
 
 /*# sourceMappingURL=style.css.map */
