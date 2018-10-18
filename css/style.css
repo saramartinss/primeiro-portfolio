@@ -109,4 +109,15 @@ body {
       margin: 10px 0;
       padding: 10px 20px; }
 
+.footer {
+  height: 35vh;
+  background: #212529; }
+  .footer .social-media {
+    display: flex;
+    justify-content: center;
+    height: 100%; }
+    .footer .social-media img {
+      width: 50px;
+      margin: 0 15px; }
+
 /*# sourceMappingURL=style.css.map */
