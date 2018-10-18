@@ -1,0 +1,30 @@
+.banner .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 27%;
+  top: 35%; }
+  .banner .text p {
+    font-family: 'Raleway';
+    color: white;
+    font-size: 2.7rem;
+    margin: 0;
+    text-align: center; }
+    .banner .text p span {
+      color: #E31B6D;
+      font-weight: bold; }
+  .banner .text a {
+    width: 200px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 1.3rem;
+    border-radius: 0px;
+    border: 2px solid; }
+.banner img {
+  height: 100vh;
+  width: 100%;
+  max-width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
