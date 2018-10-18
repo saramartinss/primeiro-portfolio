@@ -28,7 +28,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link text-white" href="#">Home</a>
+                    <a class="nav-item nav-link text-white" href="#">Início</a>
                     <a class="nav-item nav-link text-white" href="#">Sobre</a>
                     <a class="nav-item nav-link text-white" href="#">Portfolio</a>
                     <a class="nav-item nav-link text-white" href="#">Contato</a>
@@ -100,35 +100,36 @@
             <form class="form-contact">
                 <div class="form-group">
                     <label for="inputName"></label>
-                    <input type="text" class="form-control" id="inputName" placeholder="Seu nome">
+                    <input type="text" name="name" class="form-control" id="inputName" placeholder="Seu nome">
                 </div>
                 <div class="form-group">
                     <label for="inputPhone"></label>
-                    <input type="text" class="form-control" id="inputPhone" placeholder="(99)99999-9999">
+                    <input type="text" name="phone" class="form-control" id="inputPhone" placeholder="(99)99999-9999">
                 </div>
                 <div class="form-group">
                     <label for="inputEmail"></label>
-                    <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
+                    <input type="email" name="email" class="form-control" id="inputEmail" placeholder="name@example.com">
                 </div>
                 <div class="form-group">
                     <label for="inputMessage"></label>
-                    <textarea class="form-control" id="inputMessage" rows="3" placeholder="Sua mensagem ou pergunta"></textarea>
+                    <textarea name="text" class="form-control" id="inputMessage" rows="3" placeholder="Sua mensagem ou pergunta"></textarea>
                 </div>
-                <button class="btn btn-light justify-content-center">Submit</button>
+                <div class="button"><button class="btn btn-light">Submit</button></div>
             </form>
         </div>
     </section>
     <!-- FOOTER -->
     <section class="footer">
         <div class="social-media">
-            <img src="img/linkedin-logo.svg" alt="Imagem do logo do linkedin">
-            <img src="img/facebook-logo.svg" alt="Imagem do logo do facebook">
-            <img src="img/instagram-logo.svg" alt="Imagem do logo do instagram">
-            <img src="img/github-sign.svg" alt="Imagem do logo do github">
+            <a target="_blank" href="https://www.linkedin.com/in/sara-martins-silva-34857349/"><img src="img/linkedin-logo.svg" alt="Imagem do logo do linkedin"></a>
+            <a target="_blank" href="https://www.facebook.com/sariinha.martins"><img src="img/facebook-logo.svg" alt="Imagem do logo do facebook"></a>
+            <a target="_blank" href="https://www.instagram.com/sariinhamartins/"><img src="img/instagram-logo.svg" alt="Imagem do logo do instagram"></a>
+            <a target="_blank" href="https://github.com/sarinhamartins"><img src="img/github-sign.svg" alt="Imagem do logo do github"></a>
         </div>
         
     </section>
     <script src="js/jquery.slim.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/style.js"></script>
 </body>
