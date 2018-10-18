@@ -77,4 +77,36 @@ body {
   .portfolio img {
     height: 230px; }
 
+.contato {
+  height: 110vh;
+  background: #1d232bf1;
+  color: white;
+  padding: 100px 0; }
+  .contato h1 {
+    font-weight: bold;
+    text-align: center; }
+  .contato p {
+    color: #04C2C9;
+    font-weight: bold;
+    text-align: center; }
+  .contato .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .contato .container .form-contact {
+      width: 40%; }
+      .contato .container .form-contact .form-group {
+        margin: 0; }
+        .contato .container .form-contact .form-group .form-control {
+          background: #212529;
+          border: none; }
+    .contato .container button {
+      background: transparent;
+      color: white;
+      border: 2px solid white;
+      text-transform: uppercase;
+      border-radius: 0px;
+      margin: 10px 0;
+      padding: 10px 20px; }
+
 /*# sourceMappingURL=style.css.map */
