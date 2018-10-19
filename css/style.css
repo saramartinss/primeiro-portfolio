@@ -42,6 +42,9 @@ body {
 a {
   margin: 0 15px;
   color: white; }
+  @media (max-width: 420px) {
+    a {
+      margin: 0; } }
 
 /* SECTION SOBRE */
 .about {
