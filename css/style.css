@@ -138,12 +138,12 @@ a {
     align-items: center; }
     .contato .container .form-contact {
       width: 40%; }
+      @media (max-width: 768px) {
+        .contato .container .form-contact {
+          width: 60%; } }
       @media (max-width: 420px) {
         .contato .container .form-contact {
           width: 80%; } }
-      @media (max-width: 420px) {
-        .contato .container .form-contact {
-          width: 60%; } }
       .contato .container .form-contact .form-group {
         margin: 0; }
         .contato .container .form-contact .form-group .form-control {

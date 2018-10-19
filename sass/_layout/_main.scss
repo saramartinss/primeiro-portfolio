@@ -156,11 +156,11 @@ body {
     @include flex(flex, column, center);
     .form-contact {
       width: 40%;
-      @media (max-width: 420px) {
-        width: 80%;
+      @media (max-width: 768px) {
+        width: 60%;
       }
       @media (max-width: 420px) {
-        width: 60%;
+        width: 80%;
       }
       .form-group {
         margin: 0;
