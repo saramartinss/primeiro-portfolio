@@ -206,3 +206,21 @@ body {
 .form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
 .form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
 .form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+
+#arrowTop {    
+  color: #04C2C9;
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  cursor: pointer;
+  background: 0 0;
+  border: 0;
+  font-size: 2em;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    color: #7F479B;
+    transition: 0.3s;
+  }
+}
+

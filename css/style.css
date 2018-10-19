@@ -193,5 +193,19 @@ a {
   color: white; }
 
 /* Microsoft Edge */
+#arrowTop {
+  color: #04C2C9;
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  cursor: pointer;
+  background: 0 0;
+  border: 0;
+  font-size: 2em;
+  cursor: pointer;
+  transition: 0.3s; }
+  #arrowTop:hover {
+    color: #7F479B;
+    transition: 0.3s; }
 
 /*# sourceMappingURL=style.css.map */

@@ -21,3 +21,19 @@ form.validate({
         text: 'Por favor, digite uma mensagem'
     }
 });
+
+const button = document.getElementById("arrowTop")
+
+button.addEventListener("click", function(){
+    window.scrollTo(pageYOffset, 0)
+})
+
+window.addEventListener("scroll", function(){
+    console.log(pageYOffset)
+    if (pageYOffset > 700){
+        button.hidden = false
+    }
+    else {
+        button.hidden = true
+    }
+})
