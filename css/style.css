@@ -35,6 +35,15 @@ body {
 .mynavbar {
   text-transform: uppercase;
   border-bottom: 3px solid #04C2C9; }
+  .mynavbar .navbar {
+    background-color: #343a40; }
+    @media (max-width: 420px) {
+      .mynavbar .navbar {
+        position: absolute;
+        z-index: 99;
+        top: 10px;
+        right: 5px;
+        background-color: transparent; } }
   .mynavbar .navbar-nav {
     margin-left: 50px; }
   .mynavbar a {
@@ -135,6 +144,9 @@ body {
     align-items: center; }
     .contato .container .form-contact {
       width: 40%; }
+      @media (max-width: 420px) {
+        .contato .container .form-contact {
+          width: 80%; } }
       .contato .container .form-contact .form-group {
         margin: 0; }
         .contato .container .form-contact .form-group .form-control {
