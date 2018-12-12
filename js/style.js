@@ -30,7 +30,7 @@ button.addEventListener("click", function(){
 
 window.addEventListener("scroll", function(){
     console.log(pageYOffset)
-    if (pageYOffset > 700){
+    if (pageYOffset > 600){
         button.hidden = false
     }
     else {
