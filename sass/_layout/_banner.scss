@@ -1,0 +1,30 @@
+.banner {
+    @include flex(flex, column, center);
+    justify-content: center;
+    .text {
+      @include flex(flex, column, center);
+      p {
+        color: white;
+        font-size: 2.7rem;
+        margin: 0;
+        text-align: center;
+        span {
+          color: #E31B6D;
+          font-weight: bold;
+        }
+      }
+      a {
+        width: 200px;
+        background-color: transparent;
+        color: white;
+        font-size: 1.3rem;
+        border-radius: 0px;
+        border: 2px solid;
+      }
+    }
+    img {
+      height: 100vh;
+      width: 100%;
+      max-width: 100%;
+    }
+  }

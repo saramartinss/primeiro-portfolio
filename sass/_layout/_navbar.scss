@@ -1,0 +1,20 @@
+.navbar {
+    background-color: transparent;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    @media (max-width: 768px){
+      background-color: #343a40;
+    }
+  }
+  .navbar-nav {
+    margin-left: 50px;
+  }
+  a {
+    margin: 0 15px;
+    color: white;
+    @media (max-width: 420px) {
+      margin: 0;
+    }
+  }

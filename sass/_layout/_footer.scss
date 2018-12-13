@@ -1,0 +1,14 @@
+.footer {
+    height: 35vh;
+    background: #212529;
+    .social-media {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      img {
+        width: 50px;
+        margin: 0 15px;
+      }
+    }
+  }
