@@ -40,10 +40,14 @@ body {
 
 /* NAV BAR */
   .navbar {
-    background-color: #343a40;
+    background-color: transparent;
     text-transform: uppercase;
     position: absolute;
     width: 100%;
+    z-index: 1;
+    @media (max-width: 768px){
+      background-color: #343a40;
+    }
   }
   .navbar-nav {
     margin-left: 50px;
